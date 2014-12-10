@@ -1,0 +1,5 @@
+# aws
+route add -net 54.247.0.0/16 gw $VPNGW
+route add -net 176.34.0.0/21 gw $VPNGW
+route add -net 190.93.0.0/16 gw $VPNGW
+route add -net 103.31.0.0/16 gw $VPNGW
